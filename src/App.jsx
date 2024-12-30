@@ -56,7 +56,7 @@ function App() {
           />
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex ms-[31rem] mt-[-2rem]">
           <div className="relative h-full rounded-full">
             <img
               src="./circle.png"
@@ -85,7 +85,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end mt-[-3rem]">
           <div
             style={{
               background: "rgba(217, 217, 217, 0.39)",
@@ -138,7 +138,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center my-20">
+        <div className="flex justify-center my-20 mt-[7rem] ms-[-5rem]">
           <div className="relative h-full rounded-full">
             <img
               src="./circle.png"
@@ -163,7 +163,7 @@ function App() {
           style={{
             borderRadius: 16,
           }}
-          className="w-[306px] p-4 relative bg-white shadow-[4px_6px_4px_0px_#FFA7A3] mt-[11rem]"
+          className="w-[306px] p-4 relative bg-white shadow-[4px_6px_4px_0px_#FFA7A3] mt-[6rem]"
         >
           <div
             style={{
@@ -275,6 +275,11 @@ function App() {
           src="./star.png"
           alt="star image"
           className="absolute -bottom-5 left-40  w-10 h-10 "
+        />
+        <img
+          src="./dotted-line.png"
+          alt="dotted connecting line"
+          className="absolute top-32 left-[72px]"
         />
       </main>
     </>
